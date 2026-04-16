@@ -9,8 +9,8 @@ interface Props {
 
 export default function PostCard({ post }: Props) {
   const [author, setAuthor] = useState<User | null>(null);
-  const [hasError, setHasError] = useState(false);
-  const [showFullContent, setShowFullContent] = useState(false);
+  const [hasError, setHasError] = useState<boolean>(false);
+  const [showFullContent, setShowFullContent] = useState<boolean>(false);
 
   const isLongContent = post.content.length > 180;
 
