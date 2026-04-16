@@ -44,8 +44,8 @@ pnpm dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## App Flow
-
+## Development Notes
+### What I did & Why
 ### Home Page
 - Displays a grid of user cards showing basic user information
 - Each card includes avatar, name, username, bio, and numbers of followers
@@ -72,6 +72,18 @@ pnpm dev
 - All data is served through mock API routes
 - Uses fetch in Server and Client Components
 - Simulated network delays for realistic feel
+
+### Assumptions Made
+- No real authentication or protected routes
+- All data is static mock data (no database)
+- Friends are simply all other users in the system
+- Posts are pre-defined and not editable yet
+
+### What I Planned to Do (Future Enhancements)
+
+- POST endpoint to create new posts
+- POST endpoint to update user profile
+- Dark mode 
 
 ## Project Structure
 
